@@ -1,0 +1,78 @@
+body {
+  height: 120vh;
+  background: #1A1A2E;
+  background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  color: #FFF;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.question-card {
+  width: 80%;
+  height: auto;
+  background-color: #16213E;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  background-color: #0F3460;
+  border: 3px solid #E94560;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 8px;
+  padding: 16px;
+}
+
+li:hover {
+  background: #18539b;
+  cursor: pointer;
+}
+
+.question-text {
+  font-size: 24px;
+}
+
+.final-results {
+  width: 50%;
+  height: auto;
+  background-color: #16213E;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 64px;
+  padding: 16px;
+}
+
+button {
+  background-color: #FF0000;
+  border: none;
+  border-radius: 24px;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #b80101;
+}
