@@ -1,3 +1,3 @@
 # React-Greece-Quiz
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-7n5gqo)
+A sample quiz built on React featuring questions about Greece.
